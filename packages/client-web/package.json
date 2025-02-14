@@ -26,7 +26,7 @@
     },
     "devDependencies": {
         "@authup/client-web-kit": "^1.0.0-beta.24",
-        "@authup/kit": "^1.0.0-beta.24",
+        "@authup/kit": "^1.0.1-beta.24",
         "@authup/core-kit": "^1.0.0-beta.24",
         "@authup/core-http-kit": "^1.0.0-beta.24",
         "@authup/client-web-nuxt": "^1.0.0-beta.24",
