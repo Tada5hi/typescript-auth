@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.0-beta.24](https://github.com/authup/authup/compare/v1.0.0-beta.24...v1.0.0-beta.24) (2025-02-14)
+
+
+### Features
+
+* add client_id reference in role model + updated unique constraints ([6a1bc89](https://github.com/authup/authup/commit/6a1bc89b87d1cfa40c45f12245137c3a5a5ec896))
+* add route (handler) to retrieve expanded policy tree ([3079444](https://github.com/authup/authup/commit/3079444f04eaf16a29dacb4aa3339ccc284029ff))
+* client-{permission,role} relations ([#2570](https://github.com/authup/authup/issues/2570)) ([95e5e85](https://github.com/authup/authup/commit/95e5e855083b20fc17e7df9047a97948d66aac3d))
+* enable reading explicit root & children policies ([#2561](https://github.com/authup/authup/issues/2561)) ([07ae0db](https://github.com/authup/authup/commit/07ae0dbe8f6975357788bc1af572ccad87f367e7))
+* extend tree repository save & find  ([#2559](https://github.com/authup/authup/issues/2559)) ([88f5247](https://github.com/authup/authup/commit/88f52473b048f4a27cd991c01fd9d7aaf50a4bf3))
+* initial policy components ([#2562](https://github.com/authup/authup/issues/2562)) ([f73cd74](https://github.com/authup/authup/commit/f73cd7476970f563a07307ee12e1742de9eeaf32))
+* permit tree like policy submission ([#2560](https://github.com/authup/authup/issues/2560)) ([b43afdb](https://github.com/authup/authup/commit/b43afdbacf63c3e809b34a50a576e12c9133367c))
+
+
+### Bug Fixes
+
+* **deps:** accept pinia v2.x and v3.x ([ade237a](https://github.com/authup/authup/commit/ade237a07dbbd982cccd5a1ca3dbb6afbd4f82b0))
+* policy ancestor assignment ([#2568](https://github.com/authup/authup/issues/2568)) ([ca4cad7](https://github.com/authup/authup/commit/ca4cad73d3051ea4da53b56a7d7848a0e2e15f95))
+* use uncrypto to support web crypto api with different targets ([e37a0ba](https://github.com/authup/authup/commit/e37a0bad390fe7984fc9d68bf4572e5e1aa9e442))
+
 ## [1.0.0-beta.24](https://github.com/authup/authup/compare/v1.0.0-beta.23...v1.0.0-beta.24) (2025-01-18)
 
 
